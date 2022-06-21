@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+font-family:'Poppins', sans-serif;
+font-size: 16px;
+box-sizing: border-box;
+background-color:#F6F6F6;
+}
+
+.ancho{
+    width: 1200px;
+    margin: auto;
+}
+
+#cabecera{
+  
+    background-color: #3E614D;
+}
+
+#elementoscab{
+    padding: 20px;
+ 
+}
+
+.arriba{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 168px;
+}
+
+.arr{
+display: flex;
+flex-direction: row;
+align-items:flex-start;
+justify-content:center;
+margin-top: 20px;
+margin-right: 60px;
+width: 300px;
+
+}
+
+.sup{
+   padding-right: 30px; 
+   margin-left: 20px;
+   display: flex;
+   flex-direction: row;
+   justify-content:stretch;
+   
+}
+
+#reloj{
+    color: #F2F2F2;
+    font-weight: 300;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.sup a{
+    color: #F2F2F2;
+    font-weight: 300;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.sup select{
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    font-weight: 300;
+    color: #F2F2F2;
+    margin-left: 10px;
+    width: 90px;
+}
+
+
+#Logo_Uno{
+
+    width: 130px;
+    height: 168px;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#menu{
+margin: auto;
+text-align: center;
+}
+
+
+
+#menu a{
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+a{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+
+#menu a:hover{
+    color: #233611;
+    border-radius: 10px;
+}
+
+.carrusel{
+    width: 100%;
+    height: 600px;
+    border-bottom: 3px solid #A65151;
+}
+
+
+
+
+#fondo_Uno{
+    background-image: url(imagenes/habitaciones-hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fondo_Dos{
+    background-image: url(imagenes/habitacion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fondo_Tres{
+    background-image: url(imagenes/spa-new-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fondo_Cuatro{
+    background-image: url(imagenes/gastronomia_yucateca.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fondo_Cinco{
+    background-image: url(imagenes/spa-new-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto_Fondo{
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100%;
+    background-color: #00000081;
+   }
+
+.texto_Fondo h1{
+    font-size: 60px;
+    font-family: 'Dancing Script', cursiva;
+    padding: 50px;
+    width: 650px;
+   }
+ 
+   .texto_Fondo p{
+    font-size: 30px;
+   }
+
+ .texto_Fondo figure{
+       margin: 50px; 
+       width: 151px;
+       height: 15px;
+   }
+
+.parrafo_Uno{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    color:#233611;
+    width: 40%;
+    height: 40%;
+    padding: 50px;
+  
+}
+
+.btn_rojo{
+padding: 10px;
+padding-left: 50px;
+padding-right: 50px;
+background-color: #A65151;
+color: #F2F2F2;
+border-radius: 8px;
+text-decoration: none;
+margin-top: 40px;
+margin-left: 150px;
+border: none;
+font-family: 'Poppins', sans-serif;
+}
+
+.btn_rojo:hover{
+    background-color: #233611;
+    }
+    
+.alerta{
+color: #ff0000;
+}
+
+.img_f{
+    width: 100%;
+    height: 700px;
+    object-fit: cover; 
+}
+
+.Padre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+  
+}
+
+.hijo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 10px;
+    background-color: #ffffff7e;
+    border-radius: 10px;
+}
+
+.hijo figure{
+    width: 360px;
+    height: 360px;
+    margin: 20px;
+}
+
+.hijo img{
+    object-fit: cover;
+}
+
+.hijo h3{
+    font-weight:400;
+    color: #A65151;
+}
+
+.hijo p{
+    font-size: 16px;
+    font-weight:300;
+    padding: 30px;
+    color: #233611;
+}
+#actividades{
+height: 416px;
+background-image: url(imagenes/background-Sisal.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment:fixed;
+}
+
+#actividades div{
+    padding-top: 30px; 
+    color: #F2F2F2;
+    padding-bottom: 20px;
+}
+.parrafo_Dos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:stretch;
+ 
+}
+
+.parrafo_Dos p{
+    width: 40%;
+    padding-left: 60px;
+    margin-right: 150px;
+}
+
+#video{
+    margin-top: 60px; 
+    color: #233611;
+}
+
+h2{
+    border-bottom: 3px solid #A65151;
+    width: 400px;
+}
+
+#video iframe{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+    padding: 10px;
+}
+
+#galeria{
+    margin-top: 60px; 
+    background-color: black;
+    color: #F2F2F2;
+    padding-bottom: 20px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:stretch;
+}
+
+.iconos figure{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+#titulos{
+    padding-top:60px;
+    padding-bottom: 20px;
+}
+
+#mosaico{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:stretch;
+    flex-wrap: wrap;
+}
+
+.imagen_Galeria{
+    width: 240px;
+    height: 240px;
+   
+}
+
+.imagen_Galeria img{
+    object-fit: cover;
+}
+
+.ubicanos{
+width: 100%;
+height: 600px;
+
+}
+
+.ubicanos div{
+    padding-top:60px;
+    padding-bottom: 20px;
+   color: #233611;
+ 
+}
+
+.ubicanos iframe{
+    width: 100%; 
+    height: 450px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario_Uno{ 
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#formulario_Uno form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 50%;
+}
+
+.formulario_Ayuda{
+    margin-top: 60px;
+    width: 40%;
+}
+
+.entrada{
+    border: none;
+    width: 400px;
+    padding: 10px;
+    margin: 5px; 
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    resize: none;
+}
+
+.fondo{
+    background-image: url(imagenes/aguadecienega8.jpg);
+    width:45%; 
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+
+footer{
+        background-color: #3E614D;
+}
+
+#seccion_Uno{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom:#F2F2F2 3px solid ;
+    color: #F2F2F2;
+}
+
+#seccion_Unodos{
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 20px;
+        width: 25%;
+}
+
+#seccion_dos{
+    padding: 15px;
+    color: #F2F2F2;
+}
+
+#seccion_dosdos{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+   
+}
+
+.iconosdos figure{
+    width: 155px;
+    height: 40px;
+    margin: 15px;
+}
+
+.cuadro_verde{
+    background-image: url(imagenes/background_green.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+}
+
+.cuadro_Img{
+    background-image: url(imagenes/habitacion-Port.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+#imagen_Hab{
+
+width: 500px;
+height: 400px;
+}
+
+hr{
+    border-right: 1px solid #A65151;
+}
+
+
+#consulta_Spa{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+}
+
+#consulta_Spa a{
+margin-right: 200px;
+}
+
+#txt{
+    font-size: 16px;
+}
+
+marquee{
+    height: 50px;
+    background-color: #a651518f;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+marquee:hover{
+    background-color: #9ea6518f;
+}
+
+.banner_Uno{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px;
+}
+
+#politicas{
+    padding: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+#politicas div{
+    margin-top: 40px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 800px;
+    margin-bottom: 40px;
+}
+
+.fechas{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.fechas input{
+   width: 50%;
+}
+
+.formulario_reservar{
+    margin-top: 40px;
+}
+
+th{
+    border-bottom: 2px solid #233611 ;
+    text-align: center;
+    background-color: #A65151;
+    width: 100px;
+}
+td{
+   text-align: center; 
+   width: 100px;
+   padding: 10px;
+   margin: 5px; 
+   background-color: #ffffff;
+   font-family: 'Poppins', sans-serif;
+   font-size: 13px;
+   border-radius: 5px;
+}
+
+#borrar{
+    width: 18px;
+    height: 24px;
+}
+
+
+.tabla{
+
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.cabecera_tabla{
+    background-color: transparent;
+    width: 250px;
+}
+
+.fila_tabla{
+ border: 2px solid #233611;
+ background-color: transparent;
+ padding: 30px;
+ width: 80px;
+}

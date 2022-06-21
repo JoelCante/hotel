@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.016" height="24.913" viewBox="0 0 16.016 24.913">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Icon_ionic-md-phone-portrait" data-name="Icon ionic-md-phone-portrait" class="cls-1" d="M21.6,2.25H10.163A2.283,2.283,0,0,0,7.875,4.515V24.9a2.283,2.283,0,0,0,2.288,2.265H21.6A2.283,2.283,0,0,0,23.891,24.9V4.515A2.283,2.283,0,0,0,21.6,2.25Zm.286,20.464H9.877V6.7H21.889Z" transform="translate(-7.875 -2.25)"/>
+</svg>
